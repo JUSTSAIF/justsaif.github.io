@@ -5,7 +5,7 @@
 
 
 #discord_pic {
-  display:block;
+  background:transparent;
 }
 
 @media screen and (min-width: 600px) {
