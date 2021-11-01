@@ -8,19 +8,13 @@
   background:transparent;
 }
 
-@media screen and (min-width: 600px) {
+
+
+@media only screen and (max-device-width: 600px) {
   #discord_pic {
     display:none;
   }
 }
-
-
-@media screen and (min-width: 768px) {
-  #discord_pic {
-    display:block;
-  }
-}
-
 
 .no-select {
   user-select: none !important;
