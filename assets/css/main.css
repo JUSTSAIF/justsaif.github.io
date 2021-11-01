@@ -5043,6 +5043,10 @@ a img {
 }
 
 .user-projects {
+  width: 100%;
+}
+
+/* .user-projects {
   margin: 20px auto;
 }
 
@@ -5063,7 +5067,7 @@ a img {
 
 .user-projects p {
   margin-right: 5px;
-}
+} */
 
 @media only screen and (min-width: 550px) {
   .contents {
