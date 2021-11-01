@@ -4,26 +4,6 @@
 
 
 
-
-@media only screen and (max-device-width: 600px) {
-  #discord_pic {
-    display:none;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  #discord_pic {
-    display:block;
-  }
-}
-
-
-
-
-#discord_pic {
-  background:transparent;
-}
-
 .no-select {
   user-select: none !important;
   -moz-user-select: none !important;
