@@ -8,14 +8,6 @@
   background:transparent;
 }
 
-
-
-@media only screen and (max-device-width: 600px) {
-  #discord_pic {
-    display:none;
-  }
-}
-
 .no-select {
   user-select: none !important;
   -moz-user-select: none !important;
