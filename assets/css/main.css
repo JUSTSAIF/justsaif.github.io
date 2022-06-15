@@ -26,6 +26,75 @@ body {
   font-family: "Nunito Sans", sans-serif;
 }
 
+.my-github-widget {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #555;
+  margin: 1rem 0;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 3px 3px 0 0;
+}
+
+.my-github-widget .head {
+  background: -webkit-linear-gradient(#fcfcfc, #ebebeb);
+  padding: 10px 10px 10px 30px;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #4183c4;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+.my-github-widget .head .date {
+  float: right;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin-top: 3.3px;
+}
+
+.my-github-widget .body {
+  font-family: helvetica, arial, sans-serif;
+  padding: 0.7rem 1rem;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.my-github-widget .foot {
+  font-family: helvetica, arial, sans-serif;
+  padding: 15px;
+  font-size: 13px;
+  font-weight: 300;
+  border-top: 1px solid #ddd;
+}
+
+.my-github-widget .foot a {
+  color: rgb(90, 152, 214);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.my-github-widget .foot a:hover {
+  color: rgb(23, 101, 180);
+}
+
+.my-github-widget .foot .tech-icons {
+  display: inline;
+  float: right;
+}
+.my-github-widget .foot .tech-icons i {
+  font-size:20px;
+}
+
 article,
 aside,
 details,
@@ -254,6 +323,7 @@ template {
 }
 
 @-webkit-keyframes pulse {
+
   0%,
   to {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -272,6 +342,7 @@ template {
 }
 
 @keyframes pulse {
+
   0%,
   to {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -292,13 +363,11 @@ template {
 @font-face {
   font-family: "FontAwesome";
   src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
-  src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0)
-      format("embedded-opentype"),
+  src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),
     url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),
     url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),
     url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),
-    url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular)
-      format("svg");
+    url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -345,7 +414,7 @@ template {
   list-style-type: none;
 }
 
-.fa-ul > li {
+.fa-ul>li {
   position: relative;
 }
 
