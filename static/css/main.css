@@ -237,7 +237,7 @@ nav .container {
   padding: 0;
 }
 
-.theme-container .theme-select + .theme-select {
+.theme-container .theme-select+.theme-select {
   margin-top: 1em;
 }
 
@@ -358,6 +358,7 @@ footer .copyright {
 }
 
 @media screen and (min-width: 721px) {
+
   .hamburger,
   .nav-links .social-media {
     display: none;
@@ -412,4 +413,13 @@ footer .copyright {
     opacity: 1;
     animation: none !important;
   }
+}
+
+.profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 100px;
 }
